@@ -5,12 +5,12 @@
  xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
- <changeSet id="bef288af0c413ecc265fbf83092a9ca38f94cb48" author="(LIQUIBASE_DEMO_DEV)-Generated" failOnError="true"    runOnChange="false"  runAlways="false"  runInTransaction="false"  >
+ <changeSet id="96cb592bceddb5e00ae6ad3786ec38cba33afca2" author="(LIQUIBASE_DEMO_DEV)-Generated" failOnError="true"    runOnChange="false"  runAlways="false"  runInTransaction="false"  >
   <n0:createOracleProcedure objectName="INCREASE_ALL_SALARIES" objectType="PROCEDURE" ownerName="LIQUIBASE_DEMO_DEV"  replaceIfExists="false" >
     <n0:source><![CDATA[CREATE OR REPLACE EDITIONABLE PROCEDURE "%USER_NAME%"."INCREASE_ALL_SALARIES" IS
 BEGIN
     UPDATE emps
-    SET salary = salary + 100;
+    SET salary = salary + 150;
 
     COMMIT;
 END;

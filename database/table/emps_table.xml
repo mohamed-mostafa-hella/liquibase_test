@@ -5,7 +5,7 @@
  xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
- <changeSet id="0e0313a51f87f0d385cddaad881fc1fbf9d31d42" author="(LIQUIBASE_DEMO_DEV)-Generated" failOnError="true"    runOnChange="false"  runAlways="false"  runInTransaction="false"  >
+ <changeSet id="6ed51fb2c09f76bf1e5c9fc2f4df6794f73a4e68" author="(LIQUIBASE_DEMO_DEV)-Generated" failOnError="true"    runOnChange="false"  runAlways="false"  runInTransaction="false"  >
   <n0:createSxmlObject objectName="EMPS" objectType="TABLE" ownerName="LIQUIBASE_DEMO_DEV"  replaceIfExists="false" >
     <n0:source><![CDATA[
   <TABLE xmlns="http://xmlns.oracle.com/ku" version="1.0">
@@ -28,7 +28,7 @@
             <DATATYPE>NUMBER</DATATYPE>
          </COL_LIST_ITEM>
          <COL_LIST_ITEM>
-            <NAME>INFO1</NAME>
+            <NAME>INFO2</NAME>
             <DATATYPE>VARCHAR2</DATATYPE>
             <LENGTH>20</LENGTH>
             <COLLATE_NAME>USING_NLS_COMP</COLLATE_NAME>
