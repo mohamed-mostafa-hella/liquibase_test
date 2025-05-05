@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+ xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+ xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+ <changeSet id="b7b043874030446b44b647f97056ca001b03fa21" author="(LIQUIBASE_DEMO_DEV)-Generated" failOnError="true"    runOnChange="false"  runAlways="false"  runInTransaction="false"  >
+  <n0:createOracleDirectory objectName="ATTACHEMENTS" objectType="DIRECTORY" ownerName="LIQUIBASE_DEMO_DEV"  replaceIfExists="false" >
+    <n0:source><![CDATA[ CREATE OR REPLACE DIRECTORY "ATTACHEMENTS" AS '/windDB';]]></n0:source>
+      </n0:createOracleDirectory>
+ </changeSet>
+</databaseChangeLog>
